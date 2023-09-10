@@ -7,3 +7,7 @@ b2 : gõ câu lệnh git remote add origin https://github.com/daocuong2306/JSA21
 b3 : đấy dữ liệu lên github
     b3.1 : đóng gói tất cả các file đã làm( git add .)
     b3.2 : đặt tên cho phần mình muốn gửi
+b4 : lấy dữ liệu về
+    b4.1 : git init
+    b4.2 : gõ câu lệnh git remote add origin (link git)
+    b4.3 : git pull origin (nháy muốn lấy về)
