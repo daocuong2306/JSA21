@@ -52,3 +52,5 @@ console.log("find" , newFind);
 const sum = (a,b) => a+b
 //cú pháp của arrow function : 
 // const tên chức năng = () =>{}
+
+// 4 : ES6 - CRUD -localStorage - API
