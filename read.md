@@ -10,4 +10,4 @@ b3 : đấy dữ liệu lên github
 b4 : lấy dữ liệu về
     b4.1 : git init
     b4.2 : gõ câu lệnh git remote add origin (link git)
-    b4.3 : git pull origin (nháy muốn lấy về)
+    b4.3 : git pull origin (nhánh muốn lấy về)
