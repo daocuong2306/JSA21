@@ -73,9 +73,7 @@ const data = [
 ]
 //có 1 chức năng thực hiện công việc
 //các giá trị bên trong () được gọi là tham số và đc tạm thời sử dụng trong function
-const showProduct = (data) => {
-    //tìm đến chỗ muốn hiện thị
-    let app = document.querySelector('.app');
+const showProduct = (data, app) => {
     //sử dụng for để sử lí từng phần tử
     for (let product of data) {
         app.innerHTML += `
@@ -86,4 +84,6 @@ const showProduct = (data) => {
             </div>`
     }
 }
-showProduct(data)
+//  //tìm đến chỗ muốn hiện thị
+let hot = document.querySelector('.hot');
+showProduct(data, hot)
