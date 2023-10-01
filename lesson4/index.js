@@ -48,4 +48,10 @@ const data = [
         price : 5000,
         image : 'https://tcorder.vn/wp-content/uploads/2015/12/ao-thun-nam-ca-tinh-thoi-trang-2.jpg'
     }
-]
+];
+
+
+// 1 : tạo giao diện của product(bootstrap)
+// 2 : từ giao diện trên và viết hàm show product(Real)
+// 3 : đẩy dữ liệu data lên local và lấy xuống để sử dụng
+// viết ra 1 foldel mới và đặt tên (đào mạnh cường jsa21)
