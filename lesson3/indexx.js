@@ -76,10 +76,3 @@ const b = ['cuong', 2];
 const c = [a, b];
 console.log(c);
 
-// localStorage - một biến lưu trữ của máy tính
-
-
-// localStorage.setItem('product' , 1); // lưu trữ và đẩy dữ liệu lên local gồm có key('prodcut') và value(1)
-// localStorage.getItem('product'); // lấy dữ liệu từ local xuông trang js và sử dung , để lấy xuống ta gọi đến tên key('product) mà ta muốn lấy
-// localStorage.removeItem('product'); //xóa dữ liệu của local bằng key('product');
-// localStorage.clear(); // xóa toàn bộ local
