@@ -1,16 +1,16 @@
 {
   "product": [
     {
-      "id": 1,
-      "name": "product 1"
-    },
-    {
       "id": 2,
       "name": "product 2"
     },
     {
       "name": "product post",
       "id": 3
+    },
+    {
+      "name": "product post",
+      "id": 4
     }
   ],
   "Category": [

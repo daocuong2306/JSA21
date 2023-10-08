@@ -27,3 +27,23 @@ const add = () => {
         body: JSON.stringify(data1)
     })
 }
+//PUT | PATCH - SỬA - UPDATE
+const dataUpdate = {
+    name: 'product update'
+}
+const update = () => {
+    fetch('http://localhost:3000/product/1', {
+        method: 'PUT',
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(dataUpdate)
+    })
+}
+
+//DELETE | Xóa
+const deleteP = () => {
+    fetch('http://localhost:3000/product/1', {
+        method: 'DELETE',
+    })
+}
