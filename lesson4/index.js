@@ -26,32 +26,32 @@ console.log(data1);
 const data = [
     {
         id: 1,
-        name : 'product 1',
-        price : 2000,
-        image : 'https://tronhouse.com/assets/data/editor/source/nhung-cach-chup-hinh-quan-ao-duoc-uu-chuong-nhat/chup-hinh-sang-tao-1.jpg'
+        name: 'product 1',
+        price: 2000,
+        image: 'https://tronhouse.com/assets/data/editor/source/nhung-cach-chup-hinh-quan-ao-duoc-uu-chuong-nhat/chup-hinh-sang-tao-1.jpg'
     },
     {
         id: 2,
-        name : 'product 2',
-        price : 1000,
-        image : 'https://mabustudio.com/?attachment_id=3204'
+        name: 'product 2',
+        price: 1000,
+        image: 'https://mabustudio.com/?attachment_id=3204'
     },
     {
         id: 3,
-        name : 'product 3',
-        price : 4000,
-        image : 'https://htmediagroup.vn/wp-content/uploads/2021/12/Ao-pijama-11-min.jpg'
+        name: 'product 3',
+        price: 4000,
+        image: 'https://htmediagroup.vn/wp-content/uploads/2021/12/Ao-pijama-11-min.jpg'
     },
     {
         id: 4,
-        name : 'product 4',
-        price : 5000,
-        image : 'https://tcorder.vn/wp-content/uploads/2015/12/ao-thun-nam-ca-tinh-thoi-trang-2.jpg'
+        name: 'product 4',
+        price: 5000,
+        image: 'https://tcorder.vn/wp-content/uploads/2015/12/ao-thun-nam-ca-tinh-thoi-trang-2.jpg'
     }
 ];
 
 
-// 1 : tạo giao diện của product(bootstrap)
-// 2 : từ giao diện trên và viết hàm show product(Real)
-// 3 : đẩy dữ liệu data lên local và lấy xuống để sử dụng
+// 1 : tạo giao diện của product(bootstrap)(3đ)
+// 2 : từ giao diện trên và viết hàm show product(Real)(6đ)
+// 3 : đẩy dữ liệu data lên local và lấy xuống để sử dụng(1đ)
 // viết ra 1 foldel mới và đặt tên (đào mạnh cường jsa21)

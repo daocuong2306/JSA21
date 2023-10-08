@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "product 1"
+    },
+    {
+      "id": 2,
+      "name": "product 2"
+    },
+    {
+      "name": "product post",
+      "id": 3
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "name": "ao"
+    }
+  ]
+}
