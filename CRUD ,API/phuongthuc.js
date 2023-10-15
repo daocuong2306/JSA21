@@ -40,7 +40,6 @@ const update = () => {
         body: JSON.stringify(dataUpdate)
     })
 }
-
 //DELETE | Xóa
 const deleteP = () => {
     fetch('http://localhost:3000/product/1', {
