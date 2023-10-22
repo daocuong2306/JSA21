@@ -5,5 +5,17 @@
       "id": 1,
       "name": "ao"
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "abc@gmail.com",
+      "password": "123"
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "1",
+      "id": 2
+    }
   ]
 }
