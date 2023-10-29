@@ -1,11 +1,4 @@
 {
-  "products": [],
-  "Category": [
-    {
-      "id": 1,
-      "name": "ao"
-    }
-  ],
   "users": [
     {
       "id": 1,
@@ -20,6 +13,20 @@
     {
       "email": "acd",
       "password": "123",
+      "id": 3
+    }
+  ],
+  "Products": [
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 3000,
+      "description": "kasnkdjnakssndk"
+    },
+    {
+      "name": "cuong",
+      "price": "20",
+      "description": "acc",
       "id": 3
     }
   ]
