@@ -13,7 +13,8 @@ const READ = (data) => {
                         <td>${product.name}</td>
                         <td>${product.price}</td>
                         <td>${product.description}</td>
-                        <td><button type="button" class="btn btn-danger" onClick="deleteProduct(${product.id})">Xóa</button></td>
+                        <td><button type="button" class="btn btn-danger" onClick="deleteProduct(${product.id})">Xóa</button>
+                       <a href="update.html?id=${product.id}"><button type="button" class="btn btn-warning">Sửa</button></a></td>
                     </tr>
                 `
             }

@@ -34,3 +34,16 @@ const dang_nhap = () => {
             alert("sai tk hoặc mk")
         })
 }
+
+a = 3
+if (a == 3) {
+
+} else {
+
+}
+
+a == 3 ? console.log("a = 3") : console.log("a khác 3")
+
+// tạo ra 1 biến dựa trên kết quả của biến khác
+const check = 9
+const data = check > 10 ? [] : ''

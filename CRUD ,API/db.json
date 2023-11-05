@@ -18,10 +18,10 @@
   ],
   "Products": [
     {
-      "id": 2,
-      "name": "Product 2",
-      "price": 3000,
-      "description": "kasnkdjnakssndk"
+      "name": "Product 2 update",
+      "price": "100",
+      "description": "hello cac ban ",
+      "id": 2
     },
     {
       "name": "cuong",

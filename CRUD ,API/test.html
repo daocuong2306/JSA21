@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tìm kiếm theo kí tự</title>
 </head>
 
 <body>
-    <input type="file" id="file-input">
-    <img id="image" src="">
-    <script src="inedx.js"></script>
+    <input type="text" id="searchInput" placeholder="Tìm kiếm...">
+    <ul id="results"></ul>
+
+    <script>
+        const data = ["apple", "banana", "cherry", "date", "fig", "grape", "kiwi", "lemon", "lime", "mango", "orange", "papaya", "peach", "pear", "pineapple", "plum", "strawberry", "watermelon"];
+        const searchInput = document.getElementById("searchInput");
+        const resultsList = document.getElementById("results");
+
+        searchInput.addEventListener("input", () => {
+            const searchTerm = searchInput.value.toLowerCase();
+            const matchingItems = data.filter(item => item.toLowerCase().includes(searchTerm));
+            resultsList.innerHTML = matchingItems.length ? matchingItems.map(item => `<li>${item}</li>`).join('') : "<li>Không tìm thấy kết quả phù hợp.</li>";
+        });
+    </script>
 </body>
 
 </html>

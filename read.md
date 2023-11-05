@@ -11,3 +11,9 @@ b4 : lấy dữ liệu về
     b4.1 : git init
     b4.2 : gõ câu lệnh git remote add origin (link git)
     b4.3 : git pull origin (nhánh muốn lấy về)
+
+
+//check point 2 
+ làm chức năng READ , CREATE , DELETE
+//
+Đăng kí , đăng nhập
