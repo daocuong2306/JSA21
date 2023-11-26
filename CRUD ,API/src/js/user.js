@@ -1,49 +1,38 @@
 const dang_ky = () => {
-    //b1 : lấy dữ liệu
-    const email = document.querySelector('#exampleInputEmail1').value;
-    const password = document.querySelector('#exampleInputPassword1').value;
-    console.log(email, password);
-    const user = {
-        email,
-        password
+    // B1: Lấy giá trị được nhập vào từ 2 ô input 
+    const email = document.querySelector(".email").value
+    const password = document.querySelector(".password").value
+    const data = {
+        name: email,
+        password: password,
+        role: 2
     }
-    //b2:thêm tài khoản vào api
-    fetch('http://localhost:3000/users', {
-        method: 'POST',
-        headers: { "Content-Type": "application/json", },
-        body: JSON.stringify(user)
+    // b2: call api 
+    fetch("  http://localhost:3000/Users", {
+        method: "POST",
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(data)
     })
+    alert("Đăng kí thành công");
+    window.location.href = "dang_nhap.html";
 }
 
+
 const dang_nhap = () => {
-    // b1 : lấy data được nhập
-    const email = document.querySelector('#exampleInputEmail1').value;
-    const password = document.querySelector('#exampleInputPassword1').value;
-    // b2 : lấy dứ liệu từ api.user 
-    fetch('http://localhost:3000/users')
+    const email = document.querySelector(".email").value
+    const password = document.querySelector(".password").value
+    fetch("http://localhost:3000/Users")
         .then(response => response.json())
-        .then((data) => {
+        .then(data => {
             console.log(data);
-            // b3: so sánh
             for (let user of data) {
-                if ((user.email == email) && (user.password == password)) {
-                    window.location.href = 'dashboard.html';
+                if ((email == user.name) && (password == user.password)) {
+                    //lưu thông tin người dùng
+                    localStorage.setItem("uesr", JSON.stringify(user))
+                    window.location.href = "index.html";
                     return;
                 }
             }
-            alert("sai tk hoặc mk")
+            alert("đăng nhập thất bại");
         })
 }
-
-a = 3
-if (a == 3) {
-
-} else {
-
-}
-
-a == 3 ? console.log("a = 3") : console.log("a khác 3")
-
-// tạo ra 1 biến dựa trên kết quả của biến khác
-const check = 9
-const data = check > 10 ? [] : ''

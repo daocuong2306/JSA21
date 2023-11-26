@@ -1,33 +1,16 @@
 {
-  "users": [
+  "Users": [
     {
       "id": 1,
-      "email": "abc@gmail.com",
-      "password": "123"
+      "name": "John",
+      "password": 123,
+      "role": 1
     },
     {
-      "email": "abcd@gmail.com",
+      "name": "admin@example.com",
       "password": "1",
+      "role": 2,
       "id": 2
-    },
-    {
-      "email": "acd",
-      "password": "123",
-      "id": 3
-    }
-  ],
-  "Products": [
-    {
-      "name": "Product 2 update",
-      "price": "100",
-      "description": "hello cac ban ",
-      "id": 2
-    },
-    {
-      "name": "cuong",
-      "price": "20",
-      "description": "acc",
-      "id": 3
     }
   ]
 }

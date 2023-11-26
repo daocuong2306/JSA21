@@ -1,4 +1,11 @@
 .app {
     width: 1000px;
     margin: 0 auto;
+
+    height: auto;
 }
+
+body {
+    background: url("../../img/anh-giang-sinh-avt.jpg");
+    font-family: 'Noto Sans Linear B', sans-serif; }
+    
