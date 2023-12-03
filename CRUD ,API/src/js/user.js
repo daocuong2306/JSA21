@@ -14,6 +14,7 @@ const dang_ky = () => {
         body: JSON.stringify(data)
     })
     alert("Đăng kí thành công");
+   
     window.location.href = "dang_nhap.html";
 }
 
@@ -27,8 +28,7 @@ const dang_nhap = () => {
             console.log(data);
             for (let user of data) {
                 if ((email == user.name) && (password == user.password)) {
-                    //lưu thông tin người dùng
-                    localStorage.setItem("uesr", JSON.stringify(user))
+                    localStorage.setItem("user" , JSON.stringify(user))
                     window.location.href = "index.html";
                     return;
                 }
